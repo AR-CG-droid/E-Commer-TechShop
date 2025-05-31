@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops - TechShop</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-pc-display-horizontal me-2"></i>TechShop
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="laptops.html">Laptops</a></li>
+                    <li class="nav-item"><a class="nav-link" href="componentes.html">Componentes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Contacto</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-outline-light me-2">
+                        <i class="bi bi-search"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light me-2">
+                        <i class="bi bi-person"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light position-relative">
+                        <i class="bi bi-cart3"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            3
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white py-5">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold mb-3">Laptops para todos los usos</h1>
+                    <p class="lead mb-4">Desde portátiles económicos hasta máquinas profesionales de alto rendimiento.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#gaming" class="btn btn-light btn-lg px-4">Gaming</a>
+                        <a href="#profesionales" class="btn btn-outline-light btn-lg px-4">Profesionales</a>
+                        <a href="#ultraportatiles" class="btn btn-outline-light btn-lg px-4">Ultraportátiles</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="img/laptops.webp"
+                        class="img-fluid" alt="Laptops">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-3 bg-light">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-4">
+                    <select class="form-select">
+                        <option selected>Filtrar por marca</option>
+                        <option>Apple</option>
+                        <option>Dell</option>
+                        <option>HP</option>
+                        <option>Lenovo</option>
+                        <option>Asus</option>
+                        <option>Acer</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <select class="form-select">
+                        <option selected>Filtrar por precio</option>
+                        <option>Menos de L. 5000.00</option>
+                        <option>L. 5000.00 - L. 10000.00</option>
+                        <option>L. 10000.00 - L. 15000.00</option>
+                        <option>Más de L. 15000.00</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <select class="form-select">
+                        <option selected>Ordenar por</option>
+                        <option>Menor precio</option>
+                        <option>Mayor precio</option>
+                        <option>Más populares</option>
+                        <option>Mejor valorados</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="fw-bold mb-0">Todos los modelos</h2>
+                <p class="text-muted mb-0">Mostrando 12 de 45 productos</p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-danger position-absolute m-2">20% OFF</span>
+                        <img src="img/spectre.jpg"
+                            class="card-img-top p-3" alt="HP Spectre">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-success mb-2">Envío gratis</span>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <span class="text-muted ms-1">(24)</span>
+                                </div>
+                            </div>
+                            <h5 class="card-title">HP Spectre x360</h5>
+                            <p class="card-text text-muted small">Intel Core i7, 16GB RAM, 512GB SSD, 13.5" 3K2K</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="text-decoration-line-through text-muted small">L. 12,299</span>
+                                    <span class="fw-bold text-primary fs-5 ms-2">L. 12,039</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Laptop 2 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/mac.jpg"
+                            class="card-img-top p-3" alt="MacBook Pro">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-success mb-2">Envío gratis</span>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted ms-1">(56)</span>
+                                </div>
+                            </div>
+                            <h5 class="card-title">MacBook Pro 14" M2 Pro</h5>
+                            <p class="card-text text-muted small">Apple M2 Pro, 16GB RAM, 512GB SSD, Liquid Retina XDR
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary fs-5">L. 29,999</span>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-warning text-dark position-absolute m-2">Nuevo</span>
+                        <img src="img/dellxps.jpeg"
+                            class="card-img-top p-3" alt="Dell XPS">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-success mb-2">Envío gratis</span>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <span class="text-muted ms-1">(18)</span>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Dell XPS 15 9520</h5>
+                            <p class="card-text text-muted small">Intel Core i9, 32GB RAM, 1TB SSD, RTX 3050 Ti</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary fs-5">L. 29,999</span>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/rog.webp"
+                            class="card-img-top p-3" alt="Asus ROG">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-success mb-2">Envío gratis</span>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <span class="text-muted ms-1">(32)</span>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Asus ROG Zephyrus G15</h5>
+                            <p class="card-text text-muted small">AMD Ryzen 9, 32GB RAM, RTX 3080, 15.6" QHD 165Hz</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary fs-5">L. 19,999</span>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-danger position-absolute m-2">15% OFF</span>
+                        <img src="img/lenovo.jpg"
+                            class="card-img-top p-3" alt="Lenovo ThinkPad">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-success mb-2">Envío gratis</span>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted ms-1">(47)</span>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Lenovo ThinkPad X1 Carbon</h5>
+                            <p class="card-text text-muted small">Intel Core i7, 16GB RAM, 1TB SSD, 14" WUXGA</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="text-decoration-line-through text-muted small">L. 17,799</span>
+                                    <span class="fw-bold text-primary fs-5 ms-2">L. 15,999</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/acer.webp"
+                            class="card-img-top p-3" alt="Acer Swift">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-success mb-2">Envío gratis</span>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <i class="bi bi-star"></i>
+                                    <span class="text-muted ms-1">(12)</span>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Acer Swift 3</h5>
+                            <p class="card-text text-muted small">AMD Ryzen 7, 16GB RAM, 512GB SSD, 14" FHD</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary fs-5">L. 8,999</span>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-info position-absolute m-2">Más vendido</span>
+                        <img src="img/surface.webp"
+                            class="card-img-top p-3" alt="Microsoft Surface">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-success mb-2">Envío gratis</span>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <span class="text-muted ms-1">(38)</span>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Microsoft Surface Laptop 5</h5>
+                            <p class="card-text text-muted small">Intel Core i7, 16GB RAM, 512GB SSD, 13.5" PixelSense
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary fs-5">L. 12,999</span>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/razer.webp"
+                            class="card-img-top p-3" alt="Razer Blade">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-warning text-dark mb-2">Últimas unidades</span>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted ms-1">(62)</span>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Razer Blade 15</h5>
+                            <p class="card-text text-muted small">Intel Core i7, 32GB RAM, RTX 3070 Ti, 15.6" QHD 240Hz
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary fs-5">L. 29,999</span>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="mt-5" aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Anterior</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Siguiente</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0"><i class="bi bi-pc-display-horizontal me-2"></i> <span
+                            class="fw-bold">TechShop</span> - Tecnología de vanguardia</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">© 2025 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

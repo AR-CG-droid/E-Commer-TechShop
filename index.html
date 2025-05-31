@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - Computadoras y Componentes</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-pc-display-horizontal me-2"></i>TechShop
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="laptops.html">Laptops</a></li>
+                    <li class="nav-item"><a class="nav-link" href="componentes.html">Componentes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Contacto</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-outline-light me-2">
+                        <i class="bi bi-search"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light me-2">
+                        <i class="bi bi-person"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light position-relative">
+                        <i class="bi bi-cart3"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            3
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="bg-dark text-white py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Potencia tu experiencia digital</h1>
+                    <p class="lead mb-4">Los mejores equipos y componentes para gamers, creadores y profesionales.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#laptops" class="btn btn-primary btn-lg px-4">Ver laptops</a>
+                        <a href="#componentes" class="btn btn-outline-light btn-lg px-4">Componentes</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="img/1.avif"
+                        class="img-fluid rounded" alt="Setup gamer">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-laptop text-primary fs-1 mb-3"></i>
+                            <h3 class="h5 fw-bold">Laptops</h3>
+                            <p class="text-muted mb-0">Equipos para todas tus necesidades</p>
+                            <a href="#laptops" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-cpu text-primary fs-1 mb-3"></i>
+                            <h3 class="h5 fw-bold">Componentes</h3>
+                            <p class="text-muted mb-0">Actualiza tu equipo</p>
+                            <a href="#componentes" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-gpu-card text-primary fs-1 mb-3"></i>
+                            <h3 class="h5 fw-bold">Gaming</h3>
+                            <p class="text-muted mb-0">Equipos para gamers</p>
+                            <a href="#gaming" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="laptops" class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="fw-bold">Laptops</h2>
+                <a href="#" class="btn btn-outline-primary">Ver todas</a>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-danger position-absolute m-2">20% OFF</span>
+                        <img src="img/laptop1.avif"
+                            class="card-img-top" alt="Laptop HP" style="height: 180px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">HP Spectre x360</h5>
+                            <p class="card-text text-muted small">Intel Core i7, 16GB RAM, 512GB SSD</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="text-decoration-line-through text-muted small">L. 10,039.00</span>
+                                    <span class="fw-bold text-primary ms-2">L. 9,039.00</span>
+                                </div>
+                                <span class="badge bg-success">Envío gratis</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <button class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus"></i> Añadir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/laptop2.avif"
+                            class="card-img-top" alt="MacBook Pro" style="height: 180px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">MacBook Pro M2</h5>
+                            <p class="card-text text-muted small">Apple M2, 16GB RAM, 512GB SSD</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary">L. 30,000.00</span>
+                                <span class="badge bg-success">Envío gratis</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <button class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus"></i> Añadir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-warning text-dark position-absolute m-2">Nuevo</span>
+                        <img src="img/laptop3.jpg"
+                            class="card-img-top" alt="Dell XPS" style="height: 180px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Dell XPS 15</h5>
+                            <p class="card-text text-muted small">Intel Core i9, 32GB RAM, 1TB SSD</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary">L. 25,000.00</span>
+                                <span class="badge bg-success">Envío gratis</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <button class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus"></i> Añadir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/laptop4.jpg"
+                            class="card-img-top" alt="Asus ROG" style="height: 180px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Asus ROG Zephyrus</h5>
+                            <p class="card-text text-muted small">AMD Ryzen 9, 32GB RAM, RTX 3080</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary">L. 20,000.00</span>
+                                <span class="badge bg-success">Envío gratis</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <button class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus"></i> Añadir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="componentes" class="py-5 bg-light">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="fw-bold">Componentes</h2>
+                <a href="#" class="btn btn-outline-primary">Ver todos</a>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/componente1.avif"
+                            class="card-img-top" alt="RTX 4090" style="height: 180px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">NVIDIA RTX 4090</h5>
+                            <p class="card-text text-muted small">24GB GDDR6X, DLSS 3.0</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary">L. 9,000.00</span>
+                                <span class="badge bg-warning text-dark">Últimas unidades</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <button class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus"></i> Añadir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-danger position-absolute m-2">15% OFF</span>
+                        <img src="img/componente2.jpg"
+                            class="card-img-top" alt="AMD Ryzen" style="height: 180px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">AMD Ryzen 9 7950X</h5>
+                            <p class="card-text text-muted small">16 núcleos, 32 hilos, 5.7GHz</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="text-decoration-line-through text-muted small">L. 16,000.00</span>
+                                    <span class="fw-bold text-primary ms-2">L. 15,000.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <button class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus"></i> Añadir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/componente3.jpg"
+                            class="card-img-top" alt="RAM DDR5" style="height: 180px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Corsair DDR5 32GB</h5>
+                            <p class="card-text text-muted small">5600MHz, CL36, RGB</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary">L. 5,000.00</span>
+                                <span class="badge bg-success">Envío gratis</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <button class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus"></i> Añadir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/componente4.webp"
+                            class="card-img-top" alt="SSD NVMe" style="height: 180px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung 980 Pro 2TB</h5>
+                            <p class="card-text text-muted small">NVMe PCIe 4.0, 7000MB/s</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-primary">L. 4,000.00</span>
+                                <span class="badge bg-success">Envío gratis</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <button class="btn btn-outline-primary w-100">
+                                <i class="bi bi-cart-plus"></i> Añadir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ofertas" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold mb-5 text-center">Ofertas Especiales</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="card border-0 bg-primary text-white overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <span class="badge bg-warning text-dark mb-2">Limited Time</span>
+                                    <h3 class="fw-bold">PC Gamer Completa</h3>
+                                    <p class="mb-4">Ryzen 7 + RTX 4070 + 32GB RAM + 1TB SSD</p>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 fw-bold">L. 49,000.00</span>
+                                        <span class="text-decoration-line-through ms-3">L. 60,000.00</span>
+                                    </div>
+                                    <button class="btn btn-light">Comprar ahora</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-none d-md-block">
+                                <img src="img/pc.webp"
+                                    class="img-fluid h-100" style="object-fit: cover;" alt="PC Gamer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 bg-dark text-white overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <span class="badge bg-danger mb-2">Flash Sale</span>
+                                    <h3 class="fw-bold">Monitor 4K 144Hz</h3>
+                                    <p class="mb-4">27" IPS, 1ms, HDR600, FreeSync Premium</p>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 fw-bold">L. 10,000.00</span>
+                                        <span class="text-decoration-line-through ms-3">L. 16,000.00</span>
+                                    </div>
+                                    <button class="btn btn-outline-light">Comprar ahora</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-none d-md-block">
+                                <img src="img/monitor.webp"
+                                    class="img-fluid h-100" style="object-fit: cover;" alt="Monitor 4K">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-4">Contáctanos</h2>
+                    <p class="lead text-muted">¿Necesitas ayuda para elegir tu equipo ideal?</p>
+
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Nombre completo</label>
+                                    <input type="text" class="form-control" placeholder="Ingresa tu nombre">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" placeholder="Ingresa tu email">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Mensaje</label>
+                                    <textarea class="form-control" rows="4"
+                                        placeholder="¿Cómo podemos ayudarte?"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Nuestra tienda</h2>
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="mb-4">
+                                <h5 class="fw-bold"><i class="bi bi-geo-alt-fill text-primary me-2"></i> Dirección</h5>
+                                <p class="mb-0">Av. Maria Auxiliadora, Santa Rosa de Copán</p>
+                            </div>
+
+                            <div class="mb-4">
+                                <h5 class="fw-bold"><i class="bi bi-clock-fill text-primary me-2"></i> Horario</h5>
+                                <p class="mb-0">Lunes a Viernes: 9am - 8pm<br>Sábados: 10am - 6pm</p>
+                            </div>
+
+                            <div class="mb-4">
+                                <h5 class="fw-bold"><i class="bi bi-telephone-fill text-primary me-2"></i> Teléfono</h5>
+                                <p class="mb-0">+504 8791-7571<br>alvaroguti3rr3z@techshop.com</p>
+                            </div>
+
+                            <div>
+                                <h5 class="fw-bold mb-3">Síguenos</h5>
+                                <div>
+                                    <a href="#" class="btn btn-outline-dark me-2"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="btn btn-outline-dark me-2"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="btn btn-outline-dark me-2"><i class="bi bi-twitter"></i></a>
+                                    <a href="#" class="btn btn-outline-dark"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0"><i class="bi bi-pc-display-horizontal me-2"></i> <span
+                            class="fw-bold">TechShop</span> - Tecnología de vanguardia</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">© 2025 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
